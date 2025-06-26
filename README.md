@@ -14,7 +14,7 @@ $ git clone https://github.com/Buct0r/cls.git && cd cls
 ```
 then: 
 ```
-$ cp cls /usr/local/bin
+$ chmod +x cls && cp cls /usr/local/bin
 ```
 
 If it gives you an error like this:
@@ -28,7 +28,11 @@ $ sudo cp cls /usr/local/bin
 
 In alternative you can clone the repo and add the directory to path
 ```
-$ git clone https://github.com/Buct0r/cls.git
+$ git clone https://github.com/Buct0r/cls.git && cd cls
+```
+make it executable: 
+```
+$ chmod +x cls
 ```
 Edit your shell profile, depending on your system and shell:
 ```
