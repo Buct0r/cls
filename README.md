@@ -46,7 +46,18 @@ And then source the file
 ```
 $ source ~/.bashrc
 ```
+### wget
+In your terminal type: 
+```
+wget https://raw.githubusercontent.com/Buct0r/cls/main/cls
+```
+then:
+```
+chmod +x cls
+```
+Follow the previous steps to add the executable to your path variable
 ### Without git
+
 Download the source code and use the same commands as above.
 
 ## Conclusion
